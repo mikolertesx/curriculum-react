@@ -1,0 +1,49 @@
+.home-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../static/background-home.jpg") right bottom no-repeat;
+  min-height: 512px;
+  color: white;
+}
+
+.home-header-title {
+  font-size: 4rem;
+}
+
+.home-header-separation {
+  width: 60%;
+  border-bottom: 2px solid white;
+  margin: 12px auto;
+}
+
+.home-header-description {
+  font-size: 1.2rem;
+  max-width: 526px;
+  margin: 12px auto;
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 1;
+}
+
+.home-header-description--important {
+  opacity: 1;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.3rem;
+  font-style: bold;
+}
+
+.home-social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.home-social-media-item {
+  list-style: none;
+  font-size: 48px;
+  margin: 24px;  
+}
+
+.home-social-media-item a {
+  color: white;
+}
