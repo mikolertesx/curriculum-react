@@ -19,8 +19,35 @@
   font-size: 1.25rem;
   text-decoration: none;
   margin: 0 12px;
+  text-align: center;
 }
 
 .nav-item--active {
   color: orange;
+}
+
+.nav-language-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 24px;
+  top: 12px;
+  
+}
+
+.nav-language-container-p {
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+
+.nav-language-container-p--active {
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav-language-container-vertical-separator {
+  background: white;
+  width: 2px;
+  height: 12px;
+  transform: rotate(22deg);
+  margin: 4px;
 }
