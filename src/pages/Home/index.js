@@ -57,9 +57,9 @@ const Home = () => {
               </Link>
             </li>
             <li className="home-social-media-item">
-              <a href="https://www.facebook.com/miguelangel.guerrerosalinas.716/">
+              <Link href="https://www.facebook.com/miguelangel.guerrerosalinas.716/">
                 <FontAwesomeIcon icon={faFacebook} />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
