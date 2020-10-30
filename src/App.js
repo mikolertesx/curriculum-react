@@ -8,6 +8,7 @@ import Nav from "./shared/Nav";
 // Pages.
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
             </Route>
             <Route path="/about-me" exact={true}>
               <About />
+            </Route>
+            <Route path="/contact" exact={true}>
+              <Contact />
             </Route>
           </Switch>
         </HashRouter>
