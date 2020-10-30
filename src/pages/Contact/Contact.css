@@ -1,5 +1,6 @@
 .contact-content {
-  background: #181c28 url("../../static/background-contact.jpg");
+  background: #181c28 url("../../static/background-contact.jpg") no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
