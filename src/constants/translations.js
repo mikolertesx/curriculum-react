@@ -1,4 +1,18 @@
 export const Translations = {
+  links: {
+    Home: {
+      En: "Home",
+      Es: "Inicio",
+    },
+    About: {
+      En: "About me",
+      Es: "Acerca de mi",
+    },
+    Contact: {
+      En: "Contact",
+      Es: "Contacto",
+    },
+  },
   presentation: {
     En: "I'm Miguel Angel.",
     Es: "Soy Miguel Angel.",

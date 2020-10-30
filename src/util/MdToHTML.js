@@ -1,6 +1,6 @@
 import React from "react";
 
-export const MdToHTML = (text, normal, highlight, {containerClass}) => {
+export const MdToHTML = (text, normal, highlight, { containerClass }) => {
   const createSpanWithClass = (newClass, text) => {
     if (newClass === "" || newClass === null) {
       return <span>{text}</span>;
@@ -13,7 +13,6 @@ export const MdToHTML = (text, normal, highlight, {containerClass}) => {
   let accumulatedText = "";
   for (let i = 0; i < text.length; i++) {
     const char = text[i];
-    console.log(char);
     if (insideBold === false) {
       if (char !== "*") {
         accumulatedText += char;
@@ -35,8 +34,17 @@ export const MdToHTML = (text, normal, highlight, {containerClass}) => {
   if (accumulatedText !== "") {
     items.push(createSpanWithClass(normal, accumulatedText));
   }
-  console.log(items);
   return <p className={containerClass}>{items}</p>;
+};
+
+export const MdToHTMLLang = (
+  language,
+  text,
+  normal,
+  highlight,
+  { containerClass }
+) => {
+  return MdToHTML(text[language], normal, highlight, { containerClass });
 };
 
 export default MdToHTML;

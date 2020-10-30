@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
+import { LanguageContext } from "../../context/language";
+import Translations from "../../constants/translations";
 import "./nav.css";
 
 const createNavItems = (items) => {
@@ -16,7 +18,7 @@ const createNavItems = (items) => {
 };
 
 const Nav = () => {
-  const [language, setLanguage] = useState("En");
+  const [language, setLanguage] = useContext(LanguageContext);
 
   const onLanguageChange = (newLanguage) => {
     setLanguage(newLanguage);
@@ -25,15 +27,15 @@ const Nav = () => {
   const items = [
     {
       to: "/",
-      text: "Home",
+      text: Translations.links.Home[language],
     },
     {
       to: "/about-me",
-      text: "About me",
+      text: Translations.links.About[language],
     },
     {
       to: "/contact",
-      text: "Contact",
+      text: Translations.links.Contact[language],
     },
   ];
 

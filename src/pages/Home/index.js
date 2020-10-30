@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import Div100Vh from "react-div-100vh";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -7,27 +7,38 @@ import {
   faGithub,
   faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
+import { LanguageContext } from "../../context/language";
 import Link from "../../shared/components/externalLink";
 import Translations from "../../constants/translations";
-import MdToHtml from "../../util/MdToHTML";
+import { MdToHTMLLang } from "../../util/MdToHTML";
 import "./Home.css";
 
 const Home = () => {
+  const [language,] = useContext(LanguageContext);
+
   return (
     <main>
       <Div100Vh className="home-header">
-        {MdToHtml(Translations.presentation.En, "home-header-title", null, {
-          containerClass: null,
-        })}
+        {MdToHTMLLang(
+          language,
+          Translations.presentation,
+          "home-header-title",
+          null,
+          {
+            containerClass: null,
+          }
+        )}
         <div className="home-header-presentation">
-          {MdToHtml(
-            Translations.presentationP1.En,
+          {MdToHTMLLang(
+            language,
+            Translations.presentationP1,
             "",
             "home-header-description--important",
             { containerClass: "home-header-description" }
           )}
-          {MdToHtml(
-            Translations.presentationP2.En,
+          {MdToHTMLLang(
+            language,
+            Translations.presentationP2,
             "",
             "home-header-description--important",
             { containerClass: "home-header-description" }
