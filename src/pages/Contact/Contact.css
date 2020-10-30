@@ -1,5 +1,5 @@
 .contact-content {
-  background: url("../../static/background-contact.jpg");
+  background: #181c28 url("../../static/background-contact.jpg");
   display: flex;
   align-items: center;
   justify-content: center;

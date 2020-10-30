@@ -1,5 +1,5 @@
 .about-content {
-  background: url("../../static/background-about.jpg");
+  background: #2e2528 url("../../static/background-about.jpg");
   background-size: cover;
   background-position: 50% 10%;
   display: flex;
