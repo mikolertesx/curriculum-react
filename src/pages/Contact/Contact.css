@@ -15,6 +15,7 @@
   align-content: space-between;
   flex-wrap: wrap;
   border-radius: 24px;
+  overflow-y: auto;
 }
 
 .contact-options-item {
@@ -44,4 +45,20 @@
 .contact-options-item:hover {
   color: rgb(17, 153, 55);
   background: white;
+}
+
+@media (max-width: 375px) {
+  .contact-options {
+    margin-top: auto;
+    width: 95%;
+    height: 90%;
+  }
+  .contact-options-item {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  .contact-options-item p {
+    font-size: 16px;
+  }
 }

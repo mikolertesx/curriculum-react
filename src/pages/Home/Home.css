@@ -41,9 +41,21 @@
 .home-social-media-item {
   list-style: none;
   font-size: 48px;
-  margin: 24px;  
+  margin: 24px;
 }
 
 .home-social-media-item a {
   color: white;
+}
+
+@media (max-width: 375px) {
+  .home-header {
+    padding-top: 36px;
+  }
+  .home-header-media {
+    margin-top: auto;
+  }
+  .home-social-media-item {
+    font-size: 36px;
+  }
 }

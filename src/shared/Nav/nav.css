@@ -51,3 +51,14 @@
   transform: rotate(22deg);
   margin: 4px;
 }
+
+@media (max-width: 375px) {
+  .nav-language-container {
+    display: none;
+  }
+}
+@media (min-width: 411px) {
+  .nav-language-container {
+    right: 4px;
+  }
+}
