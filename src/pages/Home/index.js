@@ -8,35 +8,30 @@ import {
   faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "../../shared/components/externalLink";
+import Translations from "../../constants/translations";
+import MdToHtml from "../../util/MdToHTML";
 import "./Home.css";
 
 const Home = () => {
   return (
     <main>
       <Div100Vh className="home-header">
-        <h2 className="home-header-title">I'm Miguel Angel.</h2>
+        {MdToHtml(Translations.presentation.En, "home-header-title", null, {
+          containerClass: null,
+        })}
         <div className="home-header-presentation">
-          <p className="home-header-description">
-            I'm a Mexican based{" "}
-            <span className="home-header-description--important">
-              Web Developer
-            </span>
-            ,{" "}
-            <span className="home-header-description--important">
-              App Developer
-            </span>{" "}
-            and{" "}
-            <span className="home-header-description--important">
-              Mechatronic Engineer
-            </span>
-          </p>
-          <p className="home-header-description">
-            I'm creating{" "}
-            <span className="home-header-description--important">
-              Reactive apps
-            </span>{" "}
-            for the world to use.
-          </p>
+          {MdToHtml(
+            Translations.presentationP1.En,
+            "",
+            "home-header-description--important",
+            { containerClass: "home-header-description" }
+          )}
+          {MdToHtml(
+            Translations.presentationP2.En,
+            "",
+            "home-header-description--important",
+            { containerClass: "home-header-description" }
+          )}
         </div>
         <div className="home-header-separation" />
         <div className="home-header-media">

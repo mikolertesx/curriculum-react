@@ -20,7 +20,7 @@ const Nav = () => {
 
   const onLanguageChange = (newLanguage) => {
     setLanguage(newLanguage);
-  }
+  };
 
   const items = [
     {
