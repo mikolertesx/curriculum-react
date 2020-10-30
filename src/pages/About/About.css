@@ -91,7 +91,7 @@
   background: #8E8358;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .about-div {
     border: 0;
     margin-top: auto;

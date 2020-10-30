@@ -47,7 +47,7 @@
   background: white;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .contact-options {
     margin-top: auto;
     width: 95%;

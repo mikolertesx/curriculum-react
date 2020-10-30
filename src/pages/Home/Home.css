@@ -48,9 +48,12 @@
   color: white;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .home-header {
     padding-top: 36px;
+  }
+  .home-header-description {
+    width: 80%;
   }
   .home-header-media {
     margin-top: auto;
