@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/curriculum-react/static/css/main.cb8d6d2a.chunk.css",
+    "main.js": "/curriculum-react/static/js/main.01101fb2.chunk.js",
+    "main.js.map": "/curriculum-react/static/js/main.01101fb2.chunk.js.map",
+    "runtime-main.js": "/curriculum-react/static/js/runtime-main.b60399b6.js",
+    "runtime-main.js.map": "/curriculum-react/static/js/runtime-main.b60399b6.js.map",
+    "static/js/2.43510b55.chunk.js": "/curriculum-react/static/js/2.43510b55.chunk.js",
+    "static/js/2.43510b55.chunk.js.map": "/curriculum-react/static/js/2.43510b55.chunk.js.map",
+    "index.html": "/curriculum-react/index.html",
+    "static/css/main.cb8d6d2a.chunk.css.map": "/curriculum-react/static/css/main.cb8d6d2a.chunk.css.map",
+    "static/js/2.43510b55.chunk.js.LICENSE.txt": "/curriculum-react/static/js/2.43510b55.chunk.js.LICENSE.txt",
+    "static/media/About.css": "/curriculum-react/static/media/background-about.28b813af.jpg",
+    "static/media/Contact.css": "/curriculum-react/static/media/background-contact.84b3bef1.jpg",
+    "static/media/Home.css": "/curriculum-react/static/media/background-home.de9d529f.jpg",
+    "static/media/me.48b7976c.jpg": "/curriculum-react/static/media/me.48b7976c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b60399b6.js",
+    "static/js/2.43510b55.chunk.js",
+    "static/css/main.cb8d6d2a.chunk.css",
+    "static/js/main.01101fb2.chunk.js"
+  ]
+}
