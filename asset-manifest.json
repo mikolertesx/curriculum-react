@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/curriculum-react/static/css/main.945c9bf8.chunk.css",
+    "main.css": "/curriculum-react/static/css/main.09b5f121.chunk.css",
     "main.js": "/curriculum-react/static/js/main.01101fb2.chunk.js",
     "main.js.map": "/curriculum-react/static/js/main.01101fb2.chunk.js.map",
     "runtime-main.js": "/curriculum-react/static/js/runtime-main.b60399b6.js",
@@ -8,7 +8,7 @@
     "static/js/2.43510b55.chunk.js": "/curriculum-react/static/js/2.43510b55.chunk.js",
     "static/js/2.43510b55.chunk.js.map": "/curriculum-react/static/js/2.43510b55.chunk.js.map",
     "index.html": "/curriculum-react/index.html",
-    "static/css/main.945c9bf8.chunk.css.map": "/curriculum-react/static/css/main.945c9bf8.chunk.css.map",
+    "static/css/main.09b5f121.chunk.css.map": "/curriculum-react/static/css/main.09b5f121.chunk.css.map",
     "static/js/2.43510b55.chunk.js.LICENSE.txt": "/curriculum-react/static/js/2.43510b55.chunk.js.LICENSE.txt",
     "static/media/About.css": "/curriculum-react/static/media/background-about.28b813af.jpg",
     "static/media/Contact.css": "/curriculum-react/static/media/background-contact.84b3bef1.jpg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.b60399b6.js",
     "static/js/2.43510b55.chunk.js",
-    "static/css/main.945c9bf8.chunk.css",
+    "static/css/main.09b5f121.chunk.css",
     "static/js/main.01101fb2.chunk.js"
   ]
 }
