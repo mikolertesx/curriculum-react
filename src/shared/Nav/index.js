@@ -7,6 +7,7 @@ import "./nav.css";
 const createNavItems = (items) => {
   return items.map((item) => (
     <NavLink
+      key={`link-${item.to}`}
       to={item.to}
       className="nav-item"
       activeClassName="nav-item--active"

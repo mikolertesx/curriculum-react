@@ -2,10 +2,15 @@ import React from "react";
 
 export const MdToHTML = (text, normal, highlight, { containerClass }) => {
   const createSpanWithClass = (newClass, text) => {
+    const randomKey = `k-${Math.floor(Math.random() * 10000)}`
     if (newClass === "" || newClass === null) {
-      return <span>{text}</span>;
+      return <span key={randomKey}>{text}</span>;
     }
-    return <span className={newClass}>{text}</span>;
+    return (
+      <span key={randomKey} className={newClass}>
+        {text}
+      </span>
+    );
   };
 
   const items = [];

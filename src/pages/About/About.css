@@ -1,0 +1,92 @@
+.about-content {
+  background: url("../../static/background-about.jpg");
+  background-size: cover;
+  background-position: 50% 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-div {
+  width: 640px;
+  height: 70%;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  color: white;
+  overflow-y: auto;
+}
+
+.about-div::-webkit-scrollbar {
+  width: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.about-div::-webkit-scrollbar-thumb {
+  background: gray;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.about-image-container {
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 24px auto;
+}
+
+.about-image {
+  width: 100%;
+}
+
+.about-details-container {
+  overflow-y: auto;
+}
+
+.about-details-container p {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ul-skills {
+  border-radius: 14px;
+  flex: 0 0 40%;
+  list-style: none;
+  padding: 24px;
+  margin: 12px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1rem;
+  text-shadow: 1px 1px black;
+}
+
+#backend {
+  background: #14213d;
+}
+
+#frontend {
+  background: #37393a;
+}
+
+#styling {
+  background: #ee6c4d;
+}
+
+#app {
+  background: #293241;
+}
+
+#database {
+  background: #8E8358;
+}

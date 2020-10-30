@@ -7,6 +7,7 @@ import { LanguageProvider } from "./context/language";
 import Nav from "./shared/Nav";
 // Pages.
 import Home from "./pages/Home";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
           <Switch>
             <Route path="/" exact={true}>
               <Home />
+            </Route>
+            <Route path="/about-me" exact={true}>
+              <About />
             </Route>
           </Switch>
         </HashRouter>
